@@ -8,7 +8,7 @@
 
 ## 🚀 About
 
-**Caffio** adalah platform SaaS modern yang dirancang khusus untuk membantu pengelolaan kedai kopi dengan mudah dan efisien. Dari pemesanan, manajemen produk, hingga pelacakan pelanggan, semua bisa dilakukan dalam satu aplikasi terintegrasi.
+**Caffio** adalah platform pemesanan digital untuk kafe dan kedai modern. Kami bantu usaha kamu naik level dengan sistem yang mudah dipakai, hemat biaya, dan siap pakai tanpa ribet.
 
 ---
 
@@ -28,8 +28,7 @@
 - React + Vite (Frontend)  
 - Tailwind CSS (Styling)  
 - Framer Motion (Animations)  
-- Node.js & Express (Backend - jika ada)  
-- MongoDB / MySQL (Database)  
+- Node.js 
 - Git & GitHub (Version Control)  
 
 ---
