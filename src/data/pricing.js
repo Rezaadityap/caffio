@@ -1,0 +1,50 @@
+export const pricingPlans = [
+  {
+    title: "Basic",
+    price: "Rp. 99.000",
+    description: "Cocok untuk kafe kecil yang ingin mulai go-digital.",
+    features: [
+      "Maks. 50 menu",
+      "1 akun kasir",
+      "QR Code untuk pemesanan",
+      "Dashboard pemesanan",
+      "Laporan harian",
+      "Subdomain: namakafe.caffio.id",
+      "Branding Caffio",
+    ],
+    isPopular: false,
+  },
+  {
+    title: "Pro",
+    price: "Rp. 199.000",
+    description: "Untuk kafe berkembang dengan kebutuhan fitur lebih luas.",
+    features: [
+      "Maks. 200 menu",
+      "Hingga 3 akun kasir",
+      "QR Code & meja dinamis",
+      "Dashboard & notifikasi pesanan real-time",
+      "Laporan lengkap (harian, mingguan, bulanan)",
+      "Logo & branding kafe sendiri",
+      "Tanpa logo Caffio",
+      "Support via WhatsApp",
+    ],
+    isPopular: true,
+  },
+  {
+    title: "Enterprise",
+    price: "Rp. 399.000",
+    description:
+      "Solusi lengkap untuk banyak cabang atau volume pesanan tinggi.",
+    features: [
+      "Menu tak terbatas",
+      "Akun kasir tak terbatas",
+      "Manajemen cabang",
+      "Custom fitur sesuai kebutuhan",
+      "Laporan detail & export Excel",
+      "Integrasi Midtrans (QRIS, GoPay, ShopeePay, dll)",
+      "Prioritas support",
+      "Onboarding & training tim",
+    ],
+    isPopular: false,
+  },
+];
