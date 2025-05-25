@@ -1,4 +1,4 @@
-# ☕ Caffio - SaaS Solution for Coffee Shops
+# ☕ Caffio - Digital Ordering & Payment Solutions for Your Business
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-1.0.0-green)]()
