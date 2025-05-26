@@ -14,7 +14,7 @@ const TestimonialsSection = () => {
           <div className="border rounded-lg bg-white/20 backdrop-blur-lg p-6">
             <div className="flex space-x-3 mb-4">
               <img
-                src="/testimonials/Reza.jpeg"
+                src="testimonials/Reza.jpeg"
                 alt="Testimoni User"
                 className="w-16 h-16 rounded-full"
               />
@@ -33,7 +33,7 @@ const TestimonialsSection = () => {
           <div className="border rounded-lg bg-white/20 backdrop-blur-lg p-6">
             <div className="flex space-x-3 mb-4">
               <img
-                src="/testimonials/Hanif.png"
+                src="testimonials/Hanif.png"
                 alt="Testimoni User"
                 className="w-16 h-16 rounded-full"
               />
@@ -51,7 +51,7 @@ const TestimonialsSection = () => {
           <div className="border rounded-lg bg-white/20 backdrop-blur-lg p-6">
             <div className="flex space-x-3 mb-4">
               <img
-                src="/testimonials/nopi.jpeg"
+                src="testimonials/nopi.jpeg"
                 alt="Testimoni User"
                 className="w-16 h-16 rounded-full"
               />
