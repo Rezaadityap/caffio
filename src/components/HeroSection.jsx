@@ -1,8 +1,15 @@
+import { motion } from "framer-motion";
 import imgHero from "../assets/hero.svg";
 
 const HeroSection = () => {
   return (
-    <section className="hero-section text-center mt-32 flex flex-col">
+    <motion.section
+      className="hero-section text-center mt-32 flex flex-col"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
+      viewport={{ once: true }} // hanya animasi sekali saat masuk viewport
+    >
       <h1 className="text-4xl font-extrabold leading-[1.15] sm:text-6xl text-primary">
         Focus On Growth
         <br />
@@ -28,13 +35,17 @@ const HeroSection = () => {
         </a>
       </div>
       <div className="mt-5 items-center justify-center">
-        <img
+        <motion.img
           src={imgHero}
           alt="Demo Produk"
           className="mx-auto max-h-[300px] sm:max-h-[500px]"
+          initial={{ opacity: 0, scale: 0.9 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.6, ease: "easeOut", delay: 0.3 }}
+          viewport={{ once: true }}
         />
       </div>
-    </section>
+    </motion.section>
   );
 };
 

@@ -50,7 +50,10 @@ const MobileMenu = () => {
             <ul className="flex flex-col py-4 items-center">
               {navItems.map((item, index) => (
                 <li key={index}>
-                  <a href={item.url} className="block text-gray-600 p-4">
+                  <a
+                    href={item.url}
+                    className="block text-gray-600 p-4"
+                    onClick={() => setNavOpen(false)}>
                     {item.title}
                   </a>
                 </li>
